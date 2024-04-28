@@ -1,0 +1,3 @@
+[submodule "DockerPractice"]
+	path = DockerPractice
+	url = https://github.com/masuchida/docker_practice.git
