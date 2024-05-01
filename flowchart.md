@@ -23,3 +23,13 @@ graph TD;
     D-.->|Reference| H[(Users Table)]
     D-->G(Redirect Top)
 ```
+
+```mermaid
+erDiagram
+  users {
+    id bigInt PK
+    name string "ユーザー名"
+    timestamp created_at
+    timestamp deleted_at
+  }
+```
